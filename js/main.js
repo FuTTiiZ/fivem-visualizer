@@ -41,7 +41,7 @@ $('#input').val(`-- COLORS --
 ^_ Underline
 ^~ Strikethrough
 ^= Underline + Strikethrough
-^r Cancel Formatting (not color)`)
+^r Clear Formatting (not color)`)
 
 updateOutput($('#input').val())
 $('#input').get()[0].addEventListener('input', e => {
