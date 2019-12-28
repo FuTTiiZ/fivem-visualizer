@@ -1,0 +1,99 @@
+body {
+  background-image: url(https://static1.gamespot.com/uploads/original/1511/15118341/2847159-8589046461-RSG_G.jpg);
+  max-width: 100%;
+  max-height: 100%;
+
+  color: #ffffff;
+  overflow: hidden;
+
+  font-family: 'Lato', sans-serif;
+}
+
+.background-filter {
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  left: -0.31%;
+  top: -0.31%;
+  width: 200%;
+  height: 200%;
+  background-color: #000000;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  user-select: none;
+}
+
+.header h1 {
+  margin-bottom: 0;
+}
+
+.io {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.io h3 {
+  user-select: none;
+}
+
+.text-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.text-container .input {
+  position: relative;
+  overflow: auto;
+  resize: none;
+
+  background: #000000;
+  color: white;
+  width: 90%;
+  height: 700px;
+  text-align: left;
+  padding: 1em;
+  border-radius: 6px;
+  overflow: auto;
+  outline: none;
+  border: none;
+}
+
+.text-container .output {
+  background: #000000;
+  position: relative;
+  width: 90%;
+  left: 5%;
+  height: 700px;
+  text-align: left;
+  padding: 1em;
+  border-radius: 6px;
+  overflow: auto;
+  white-space: pre;
+}
+
+.placeholder {
+  color: gray;
+  user-select: none;
+}
+
+/* CHAT STYLING */
+
+.color-0{color: #ffffff;}
+.color-1{color: #ff4444;}
+.color-2{color: #99cc00;}
+.color-3{color: #ffbb33;}
+.color-4{color: #0099cc;}
+.color-5{color: #33b5e5;}
+.color-6{color: #aa66cc;}
+.color-7{color: #ffffff;}
+.color-8{color: #cc0000;}
+.color-9{color: #cc0068;}
